@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+     <meta name="viewport" content="with=device-width, initial-scale=1.0">
+<title>Smart - Travell Planner </title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+</body>
+      <section class="subsS-header">
+        <nav>
+            <a href="index.html">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle"onclick="hideMenu()"></i>
+
+                <ul>
+                    
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="place.html">PLACE</a></li>
+                    <li><a href="facalities.html">FACILITIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1> FACILITIES WE OFFER <br>TO OUR USERS </h1>
+            </section>
+                <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <p>We provide you easy Pre-Planned accessable set of information <br>including - MAPS,SHORTEST DISTANCE,WEATHER,STAYING SUGGESTIONS AND ETC</p>
+        <div class="row">
+            <div class="Facilities-col">
+                <img src="images/SmartSelect_20250509_203444_Snapchat.png" alt="">
+                <h3>MAPS</h3>
+                <P>Help to find shortest Distance and accurate routes </P>
+            </div>
+            <div class="row">
+                <div class="Facilities-col">
+                    <img src="images/SmartSelect_20250509_203612_Google.png" alt="">
+                    <h3>WEATHER FORECAST</h3>
+                    <P>Help you to choose the mode of transport and safest routes </P>
+                </div>
+                <div class="row">
+                    <div class="Facilities-col">
+                        <img src="images/hotel.png" alt="">
+                        <h3>HOTELS AND HOMESTAYS</h3>
+                        <P>Makes your traveling hours stressfree <br>You don't need to worry throught your journey </P>
+                    </div>
+                    <div class="row">
+                        <div class="Facilities-col">
+                            <img src="images/Screenshot_20250509_114507_Instagram.png" alt="">
+                            <h3>BEAUTIFUL LOCATIONS</h3>
+                            <P>Make you beautiful places like landscapes <br>You can create a lot of memories</P>
+                        </div>
+                        <div class="row">
+                            <div class="Facilities-col">
+                                <img src="images/SmartSelect_20250509_115057_Instagram.png" alt="">
+                                <h3>DIFFERENT EXPERIENCES</h3>
+                                <P>You can create new experiences in your like <br>crossing rivers , experiencing snowfalls</P>
+
+                                <div class="comment-box">
+                                    <h3>Leave a comment</h3>
+                                    <form class="comment-form">
+                                        <input type="text" placeholder="Enter Name ">
+                                        <input type="email" placeholder="Enter Email ">
+                                        <textarea rows="5" placeholder="Your comment ">
+
+                                        </textarea>
+                                        <button  type="submit" class="herro-btn ">POST COMMENT</button>
+
+                                    </form>
+
+
+                                </div>
+                            </div>
+        </div >
+    </section>
+
+
+
+            <section class="footer">
+        <h4>About Us</h4>
+        <p>This website is  for Smart Travel Planning <br>Made by TEAM - CodeSQUAD</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            
+
+        </div>
+    </section>
+
+
+
+
+
+
+      <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-200px";
+        }
+      </script>
+</body>
+</html>
